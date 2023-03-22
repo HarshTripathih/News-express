@@ -28,7 +28,8 @@ const News = (props) => {
     // const apiKey = 'NQXGhHOpCu7aIn4yFPcq4URHBzp68mnEjLM-WBqMZQk';
     // const apiKey = 'Fv-kTL0B5nQFA3Q_diOMUSxy3vVo0EMTXa2agl-GJYY';
     // const apiKey = '0gutv6dEJ0zTNUO4PVl6kEUva5gsXOkfmikKHdx3yH0';
-    const apiKey = '8yAua9PKXVXnwY6l5F2ZTfHMehPzMk6re2nR7OXyclI';
+    // const apiKey = '8yAua9PKXVXnwY6l5F2ZTfHMehPzMk6re2nR7OXyclI';
+    const apiKey = process.env.REACT_APP_APIKEY;
     useEffect(() => {
 
         const getNews = async () => {
